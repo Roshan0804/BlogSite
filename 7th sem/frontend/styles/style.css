@@ -1,0 +1,65 @@
+.bg-brand {
+  background-color: #2989da;
+}
+.text-brand {
+  color: #2989da;
+}
+.border-brand {
+  border-color: #2989da;
+}
+.banner-img {
+  height: 60vh;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.project-img {
+  height: 100vh;
+  width: 100% !important;
+  object-fit: cover;
+  border-radius: 2px;
+}
+.project-sm-img {
+  height: 30vh;
+  width: 100% !important;
+  object-fit: cover;
+  border-radius: 2px;
+}
+.search-btn {
+  margin-left: -14px;
+  border-radius: 0px 20px 20px 0px;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgb(0 0 0 / 20%);
+  padding: 12px 16px;
+  z-index: 1;
+  margin-top: 5px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.absolute-home-content {
+  /* background: #f8f8f8; */
+  /* padding: 4%; */
+  border-radius: 12px;
+  /* margin-bottom: -9%; */
+}
+
+textarea:focus-visible,
+input:focus-visible {
+  outline: none;
+}
+
+.my-lineheight {
+  line-height: 27px !important;
+}
